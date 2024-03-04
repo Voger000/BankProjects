@@ -1,2 +1,5 @@
-package Bank;public class AccountUsersOfBank {
+package Bank;
+
+public class AccountUsersOfBank {
+
 }
