@@ -14,7 +14,7 @@ public class BalanceAccountOfUsers {
 
     public static void BalanceOfAccount(String username) {
         try {
-            PreparedStatement statement = connection.prepareStatement("SELECT balance FROM users WHERE username = ?");
+            PreparedStatement statement = connection.prepareStatement("SELECT balance FROM usersOfBank WHERE username = ?");
             statement.setString(1, username);
             ResultSet resultSet = statement.executeQuery();
 
